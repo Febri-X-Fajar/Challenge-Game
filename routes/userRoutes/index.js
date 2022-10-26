@@ -1,6 +1,9 @@
 const route = require("express").Router()
 const userControllers = require("../../controllers/userControllers")
 const user = require("../../models/user")
+// const swaggerJson = require("../openapi.json")
+// const swaggerUi = require("swagger-ui-express")
+
 
 route.get("/register", userControllers.renderForm)
 route.post("/register", userControllers.handleFormRegister)

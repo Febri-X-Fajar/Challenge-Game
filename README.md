@@ -5,7 +5,7 @@ a. buat user kedalam data base yang passwordnya sudah bcrypt (tonton yang pertam
 
 
 step by step:
-- npm ini -y
+- npm init -y
 - npm install pg
 - npm install sequelize
 - rubah yang ada di config, sesuaikan config.jsonnya (postgres)
